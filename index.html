@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwords</title>
+    <script src="./scripts/variables.js" defer></script>
+    <script src="./scripts/auth.js" defer></script>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container container">
+                <h1 class = "header-title">Просмотр паролей</h1>
+                <div class="auth">
+                    <h3 class="auth-name">Alex</h3>
+                    <button class="button auth-login">ВХОД</button>
+                    <button class="button auth-logout">ВЫХОД</button>
+                </div>
+                <!-- /.auth -->
+            </div>
+        </header>
+        <!-- /.header -->
+        <div class="form-login">
+            <h2 class="login-title">Авторизация</h2>
+            <p class = "incorrect-auth">Неверный лоин или пароль</p>
+            <form action="" class="login">
+                <input type="text" class="input input-login" placeholder="Логин">
+                <input type="password" class="input input-password" placeholder="Пароль">
+                <button type="submit" class = "button but-login">Войти</button>
+            </form>
+            <div class="login-exit">
+            </div>
+        </div>
+        <!-- /.form-login -->
+    </div>
+</body>
+</html>
